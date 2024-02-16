@@ -1,6 +1,6 @@
 # 42. Write a Python program to convert a list to a tuple. 
-tuple1 = ("Rohan", "Pudasaini","HP")
+list1 = ["Rohan", "Pudasaini","HP"]
 
-tuple1 = list(tuple1)
+tuple1 = tuple(list1)
 print(tuple1)
 print(type(tuple1))

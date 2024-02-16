@@ -5,7 +5,7 @@
 # Sample list : [{1,2},{},{}] 
 # Return value : False 
 
-sample_list = [{},{},{5:6}]
+sample_list = [{2:3},{},{5:6}]
 for item in sample_list:
     item = dict(item)
     # print(type(item))
